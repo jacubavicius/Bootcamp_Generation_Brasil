@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo ABC</title>
+    <link rel="icon" href="/exerciciosHTML/assets/icon-travel.png">
+</head>
+
+<body bgcolor="#ADD8E6" style="margin: 30px;">
+    <header>
+        <h1 style="text-align: center;">
+            <img src="/exerciciosHTML/assets/icon-travel.png" alt="icon" width="50" height="50">
+            TURISMO ABC
+        </h1>
+        <hr>
+    </header>
+
+    <main>
+        <h2 style="text-align: center;">Formulário para cotação de viagem</h2>
+        <div class="viagem">
+            <h3>Dados da viagem</h3>
+
+            <form method="get">
+                <label for="origem"><strong>Origem:</strong></label>
+                <input type="text" name="origem" id="origem" placeholder="São Paulo, SP" style="margin-right: 15px;">
+                <label for="destino"> <strong>Destino:</strong> </label>
+                <input type="text" name="destino" id="destino" placeholder="Fortaleza, CE" style="margin-right: 50px;"
+                    required>
+
+                <label for="dataIda"><strong>Ida:</strong></label>
+                <input type="date" name="dataIda" id="dataIda" style="margin-right: 15px;" required />
+                <label for="dataVolta"><strong>Volta:</strong></label>
+                <input type="date" name="dataVolta" id="dataVolta" style="margin-right: 50px;" />
+
+                <label for="transporte"><strong>Transporte:</strong></label>
+                <select name="transporte" id="transporte">
+                    <option value="" selected disabled>Selecione uma das opções...</option>
+                    <option value="avião">Avião</option>
+                    <option value="onibus">Ônibus</option>
+                    <option value="cruzeiro">Cruzeiro</option>
+                </select>
+            </form>
+        </div>
+
+        <br><br>
+
+        <div class="passageiros">
+            <h3>Dados pessoais</h3>
+
+            <form method="get">
+                <div style="margin-bottom: 20px;">
+                    <label for="nome"><strong>Nome: </strong></label>
+                    <input type="text" name="nome" id="nome" style="margin-right: 100px;" required />
+
+                    <label for="email"><strong>Email: </strong></label>
+                    <input type="email" name="email" id="email" required />
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <label for="tel"><strong>Cel: </strong></label>
+                    <input type="tel" name="tel" id="tel" class="input-padrao" required placeholder="(xx) xxxxx-xxxx"
+                        style="margin-right: 115px;" />
+                    <label for="passageiros"><strong>Quantidade de passageiros:</strong></label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label for="obs"><strong>Observações:</strong></label><br />
+                    <textarea name="obs" id="obs" rows="4" cols="50"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <br>
+            <button type="submit">Enviar</button>
+
+            <br>
+            <br>
+            <input type="checkbox" name="ofertas" id="ofertas" />
+            <label for="ofertas"> Desejo receber novidades e ofertas por email.</label>
+        </div>
+    </main>
+
+</body>
+
+</html>
