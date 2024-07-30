@@ -1,0 +1,67 @@
+* {
+  background-color: #add8e6;
+  margin: 0;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 10px 30px 30px 30px;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin-right: 5px;
+}
+
+.title-header {
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+h3 {
+  margin: 15px 0 15px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea,
+select,
+option {
+  background-color: antiquewhite;
+  border-radius: 3px;
+}
+
+.passageiros {
+  margin-top: 50px;
+}
+
+#obs {
+  margin-top: 10px;
+}
+
+.observacoes {
+  margin-top: 50px;
+}
+
+button {
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.checkbox {
+  margin-top: 40px;
+}

@@ -1,0 +1,64 @@
+* {
+  background-color: #fffafa;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 30px;
+}
+
+.title-header {
+  text-align: center;
+  margin: 5px 0 15px 0;
+}
+
+.job-title {
+  margin: 15px 0 15px 0;
+  text-align: center;
+  background-color: #87ceeb;
+  padding-bottom: 5px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+p,
+ul {
+  margin-bottom: 20px;
+}
+
+li {
+  margin-left: 30px;
+  padding: 3px;
+}
+
+td {
+  column-width: 140px;
+}
+
+.title-table {
+  font-weight: 500;
+}
+
+.button {
+  margin: 20px 0 10px 0;
+}
+
+button {
+  background-color: #87ceeb;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contato {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0080ff;
+  text-decoration: none;
+}
